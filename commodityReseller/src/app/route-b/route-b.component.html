@@ -1,0 +1,16 @@
+<div class="ag-format-container">
+    <div class="ag-courses_box">
+      <div class="ag-courses_item">
+        <div class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+          <div class="ag-courses-item_title">Route B
+            <div *ngIf="result.maxProfit !== undefined">
+                <p>Best Time to Buy : {{ result.buyPrice }} at index {{ result.buyIndex }}</p>
+                <p>Best Time to Sell: {{ result.sellPrice }} at index {{ result.sellIndex }}</p>
+                <p>Maximum Profit: <span>{{ result.maxProfit }}</span></p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
